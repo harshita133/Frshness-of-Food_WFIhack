@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundd"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.harshi.teamarjuna.MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/tvTeamName"
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEAM ARJUNA"
+        android:textStyle="bold"
+        android:textSize="38dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/tvProblemStatement"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Detection of Freshness and Quality" />
+
+    <TextView
+        android:id="@+id/tvProblemStatement2"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="of Fruits and Vegetables " />
+
+    <TextView
+        android:id="@+id/tvSolutions"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOLUTIONS"
+        android:textColor="@color/colorBlack"
+        android:layout_weight="0.07" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnSensor"
+            android:shadowColor="@color/colorBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Check Freshness using Data from Ethylene Sensor "
+            android:layout_weight="0.50" />
+
+        <Button
+            android:id="@+id/btnDIP"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="Check freshness using Digital Image Processing" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/sensorbackground"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Freshness using Data"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="from Ethylene Sensor"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/etEthyleneConc"
+        android:textColor="@color/colorWhite"
+        android:hint="Please enter the concentration in ppm"
+        android:textColorHint="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_marginTop="290dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let`s Check Freshness" />
+</LinearLayout>
